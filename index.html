@@ -1,0 +1,28 @@
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="sketch.js"></script>
+  <style>
+    h1, p, select {
+      color:white;
+    }
+
+    body {
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Last Brain Cell</h1>
+  <p>Music: https://bensound.com</p>
+  <br><audio controls>
+    <source src="bensound-evolution.mp3" type="audio/mpeg">
+  </audio>
+  <select id="colorPicker">
+    <option value="1">Red</option>
+    <option value="2">Green</option>
+    <option value="3">Blue</option>
+  </select>
+  <button onclick="externalDraw()">Go</button>
+</body>
+</html>
